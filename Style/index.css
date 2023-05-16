@@ -28,11 +28,6 @@
       padding: 0px 40px;
   }
 
-  .header {
-      /* background-color: aqua; */
-
-  }
-
   .headerimage {
       width: 80%;
   }
@@ -93,10 +88,6 @@
   .mockupsimage {
       width: 100%;
       padding-left: 80px;
-  }
-
-  main {
-      /* background-color: aqua; */
   }
 
   .grow {
@@ -546,8 +537,6 @@
           height: auto;
           padding-left: 60px;
       }
-
-      .center {}
 
       .footers {
           display: flex;
