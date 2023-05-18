@@ -350,14 +350,21 @@
 
   .facebook {
       border-radius: 50%;
-      width: 100%;
-      height: 100%;
-      border-width: 1px;
-      border-color: #ffffff;
-      background-color: hsl(192, 100%, 9%);
-      padding-top: 5px;
+      width: 70px;
+      height: 30px;
+      border: 1px solid #ffffff;
+      /* background-color: hsl(192, 100%, 9%); */
+      /* padding-top: 5px; */
       fill: #ffffff;
       cursor: pointer;
+      display: flex;
+      align-items: center;
+      padding-left: 8px;
+      padding-right: 2px;
+  }
+
+  .fb {
+      border: 1px solid #ffffff;
   }
 
 
@@ -368,13 +375,17 @@
 
   .twitter {
       border-radius: 50%;
-      width: 100%;
-      height: 100%;
-      border-width: 1px;
-      border-color: #ffffff;
-      background-color: hsl(192, 100%, 9%);
-      padding-top: 5px;
+      width: 70px;
+      height: 30px;
+      border: 1px solid #ffffff;
+      /* background-color: hsl(192, 100%, 9%); */
+      /* padding-top: 5px; */
       fill: #ffffff;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      padding-left: 8px;
+      padding-right: 4px;
   }
 
   .twitter:hover {
@@ -384,13 +395,17 @@
 
   .ig {
       border-radius: 50%;
-      width: 100%;
-      height: 100%;
-      border-width: 1px;
-      border-color: #ffffff;
-      background-color: hsl(192, 100%, 9%);
-      padding-top: 5px;
+      width: 80px;
+      height: 30px;
+      border: 1px solid #ffffff;
+      /* background-color: hsl(192, 100%, 9%); */
+      /* padding-top: 5px; */
       fill: #ffffff;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      padding-left: 6px;
+      padding-right: 6px;
   }
 
   .ig:hover {
@@ -592,17 +607,17 @@
       }
 
       .facebook {
-          width: 4%;
-          /* height: 70px; */
+          width: 30px;
+          height: 30px;
       }
 
       .twitter {
-          width: 3.5%;
+          width: 30px;
           /* height: 5%; */
       }
 
       .ig {
-          width: 3.2%;
+          width: 30px;
           /* height: 70px; */
       }
   }
